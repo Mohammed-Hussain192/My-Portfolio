@@ -1,0 +1,43 @@
+.div{
+    height: 60px;
+ 
+    position: relative;
+    
+    width: 100%;
+   background-color: rgba(241, 27, 27, 0);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30%;
+   
+   border-radius: 20px;
+}
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease;
+}
+a:hover
+{
+    background-color: rgb(0, 0, 0);
+    
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.h1{
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Helvetica Ne";
+}

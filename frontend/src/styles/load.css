@@ -1,0 +1,47 @@
+.loadcont{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+h1{
+    font-size:8vw;
+    font-weight: 900;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+
+    animation:go 3s steps(40)   1   alternate;
+
+    white-space: nowrap;
+    background: -webkit-linear-gradient(#000847,red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.here{
+    position: relative;
+    top: 10%;
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+}
+@keyframes go {
+    0%,25%{
+        width: 0%;
+
+    }25%,50%{
+        width: 50%;
+    }50%,75%{
+        width: 75%;
+    }75%,100%{
+        width: 100%;
+    }
+}
